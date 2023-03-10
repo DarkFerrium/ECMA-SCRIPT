@@ -1,0 +1,14 @@
+// enahced object literal
+
+//hacer return de un objeto, y tambien se puede hacer un objeto con los nombres si inicalizarlo
+//make a return from a object withoth initialize it
+function newUser(user, age, country,id){
+    return{
+    user,
+    age,
+    id
+    }
+};
+
+console.log(newUser('Ferri',32,'CO',1));
+
