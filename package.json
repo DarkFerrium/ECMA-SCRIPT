@@ -13,5 +13,6 @@
     "curso"
   ],
   "author": "Ferrium ferrium.91@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
