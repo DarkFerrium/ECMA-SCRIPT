@@ -12,3 +12,5 @@ list.add('item 2').add('item 3');
 list.add(1991).add({animal: 'vaca', edad: 2})
 
 console.log(list);
+console.log(...list); //como un array
+console.log(`El tamaño de la lista es: ${list.size}`); 
