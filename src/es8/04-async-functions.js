@@ -29,7 +29,7 @@ dividir(10, 0); // lanza un objeto Error con el mensaje "No se puede dividir por
 
 */
 
-  // Empezamos defiiendo nuestra funcion promesa
+  // Empezamos definiendo nuestra funcion promesa
   const funcionPromesa = ()=> { 
     //le digo que me devuelva lo que ejecute la promesa, ya sea si la resuelve o no
     return new Promise((resolve, reject) => {
@@ -43,7 +43,7 @@ dividir(10, 0); // lanza un objeto Error con el mensaje "No se puede dividir por
 
       //aqui defino mi funcion asyncrona
       const ejecutarPromesa = async () => {
-        //con el await le digo quie me espere hasta que se se ejecute
+        //con el await le digo que me espere hasta que se se ejecute
         const resolucion = await funcionPromesa();
         console.log('Activo la ejecucion del async, que demorara 2s');
         console.log(resolucion);
